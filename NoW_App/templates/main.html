@@ -36,8 +36,8 @@
           <p class="lead text-muted">A Machine Learning App that will help you save time by ditching the fake news articles.</p>
         </div>
       </section>
-	  
-	
+	  <br>
+	  <div>
 	<form align="center" action="{{ url_for('main') }}" method="POST">
 	    <fieldset>
 	        <legend>Input Article text</legend>
@@ -45,7 +45,9 @@
 	        <input type="submit" value="Submit">
 	    </fieldset>
 	</form>
-	
+
+
+	<br><br><br>
 	<div class="alert alert-success">
 		{% if input_text %}
 			<h4> Classification for: {{ input_text }} </h4>
