@@ -22,7 +22,9 @@ This is an algorithm that could be used by anyone who needs to test the legitima
 Ultimately we wish to combat fake news by leveraging the techniques used in machine learning and natural language processing. 
 
 ## Technology 
----- link to video describing project and how to use our app ---- 
+
+> Demo video explaining how to use this app (insert_link_here) 
+
 * Jupyter Notebook
   * https://jupyter.org/
 * Flask
@@ -33,7 +35,7 @@ Ultimately we wish to combat fake news by leveraging the techniques used in mach
   * https://github.com/
 
 ## Dependencies
- ----- list all project dependencies -----
+> List of project dependencies
 
 * pandas
 * nltk
@@ -48,16 +50,20 @@ Ultimately we wish to combat fake news by leveraging the techniques used in mach
   * TfidVectorizer
 
 ## Getting Started
+> Get this code running on your machine
 ----- step by step instructions on how to use application / build app on local machine -----
 
 ## Training
+> What's the secret sauce?
 ----- a brief description on features/ vectorizers/ and regression -----
 ----- sample code -----
 
 ## Results 
+> Journey to the end of the rainbow
 ----- outline results and findings ----- 
 
 ## Extra Resources
+> Extra reading on this topic (updated as often as possible)
 * Examples of Vectorizers: https://towardsdatascience.com/a-complete-exploratory-data-analysis-and-visualization-for-text-data-29fb1b96fb6a
 * TechTalks GPT-3: https://bdtechtalks.com/2020/08/17/openai-gpt-3-commercial-ai/
 
