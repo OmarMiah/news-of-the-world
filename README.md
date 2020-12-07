@@ -21,7 +21,7 @@ Using the Naive Bayes approach, we look at the word count of each dataset to det
 
 That being said, our algorithm can be used by anyone who needs to test the legitimacy of an article and know if it is a product of the fourth estate or an exercise in producing fiction. 
 
-Ultimately we wish to combat fake news by leveraging the techniques used in machine learning and natural language processing. 
+Ultimately we wish to combat fake news by leveraging the techniques used in machine learning and natural language processing to give our users clarity and peace of mind.
 
 ## Technology 
 
