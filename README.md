@@ -5,7 +5,7 @@
 * [Introduction](#Introduction)
 * [Technology](#Technology)
 * [Dependencies](#Dependencies)
-* [Getting started](#Getting started)
+* [Getting started](#Getting-started)
 * [Training](#Training)
 * [Results](#Training)
 * [Credits](#Credits)
@@ -26,7 +26,7 @@ Ultimately we wish to combat fake news by leveraging the techniques used in mach
 ## Dependencies
  ----- list all project dependencies -----
  
-## Getting started
+## Gettingstarted
 ----- step by step instructions on how to use application / build app on local machine -----
 
 ## Training
