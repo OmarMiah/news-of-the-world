@@ -5,7 +5,7 @@
 * [Introduction](#Introduction)
 * [Technology](#Technology)
 * [Dependencies](#Dependencies)
-* [Getting started](#Getting-started)
+* [Getting Started](#Getting-started)
 * [Training](#Training)
 * [Results](#Training)
 * [Credits](#Credits)
