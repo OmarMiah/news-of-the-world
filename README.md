@@ -22,11 +22,19 @@ Ultimately we wish to combat fake news by leveraging the techniques used in mach
 
 ## Technology 
 ---- link to video describing project and how to use our app ---- 
+* Docker
+  * https://docker-curriculum.com/
+* AWS
+  * https://aws.amazon.com/rds/mysql/
+* Google Cloud Platform
+  * https://cloud.google.com/solutions/websites
+* MongoDB
+  * https://www.mongodb.com/
 
 ## Dependencies
  ----- list all project dependencies -----
  
-## Getting started
+## Getting Started
 ----- step by step instructions on how to use application / build app on local machine -----
 
 ## Training
@@ -39,20 +47,11 @@ Ultimately we wish to combat fake news by leveraging the techniques used in mach
 ## Credits
 -----  people on the project -----
 
-* Docker
-  * https://docker-curriculum.com/
-* AWS
-  * https://aws.amazon.com/rds/mysql/
-* Google Cloud Platform
-  * https://cloud.google.com/solutions/websites
-* MongoDB
-  * https://www.mongodb.com/
-## Server
-  * https://www.quora.com/What-exactly-should-I-learn-in-AWS-to-be-able-to-host-Node-js-back-end-and-MySQL?q=mysql%20and%20aws
-  * https://www.npmjs.com/package/mysql2
+
+
 
 ## Extra Resources
-* Github Education: https://education.github.com/pack#offers
-* Database Architecture Design: https://app.sqldbm.com/OpenSample/
+* Examples of Vectorizers: https://towardsdatascience.com/a-complete-exploratory-data-analysis-and-visualization-for-text-data-29fb1b96fb6a
+* TechTalks GPT-3: https://bdtechtalks.com/2020/08/17/openai-gpt-3-commercial-ai/
 * Google Doc for documentation: https://docs.google.com/document/d/1nRih3lCmjHZDHOr2gvDwSJfWaDgtQrDo5Bd_H7gRktQ/edit?usp=sharing
 * Github Formatting Help: https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax#links
