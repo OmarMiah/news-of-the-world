@@ -26,7 +26,7 @@ Ultimately we wish to combat fake news by leveraging the techniques used in mach
 ## Dependencies
  ----- list all project dependencies -----
  
-## Gettingstarted
+## Getting started
 ----- step by step instructions on how to use application / build app on local machine -----
 
 ## Training
