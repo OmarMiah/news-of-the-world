@@ -2,7 +2,14 @@
 
 ## Intro
 
-In the age of the 21st century, infomartion verificcation is crutical to the flow and use of information. Some of the most basic information that peopel recive is new, which has given the 
+We know that in the information age information is king, but what can be trusted. On a daily basis individuals are inundated with information from all across the internet, how is anyone supposed to know what can be trusted.   
+
+We plan on using verified data sets that classify real news vs disinformation dressed up as news. We will use Conditional Probability and Exploratory Data Analysis technencise to classify a news article as real or simply false information aka fake news. 
+
+This is an algorithm that could be used by anyone who needs to test the legitimacy of an article and know if it is a product of the fourth estate or an exercise in producing fiction. 
+
+Ultimately we wish to combat fake news by leveraging the techniques used in machine learning and natural language processing. 
+
 
 ---- link to video describing project and how to use our app ---- 
 
