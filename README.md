@@ -23,18 +23,30 @@ Ultimately we wish to combat fake news by leveraging the techniques used in mach
 
 ## Technology 
 ---- link to video describing project and how to use our app ---- 
-* Docker
-  * https://docker-curriculum.com/
-* AWS
-  * https://aws.amazon.com/rds/mysql/
-* Google Cloud Platform
-  * https://cloud.google.com/solutions/websites
-* MongoDB
-  * https://www.mongodb.com/
+* Jupyter Notebook
+  * https://jupyter.org/
+* Flask
+  * https://flask.palletsprojects.com/en/1.1.x/
+* Visual Studio Code
+  * https://code.visualstudio.com/
+* Github
+  * https://github.com/
 
 ## Dependencies
  ----- list all project dependencies -----
- 
+
+* pandas
+* nltk
+ * word_tokenize
+ * stopwords
+* pickle
+* sklearn.naive_bayes
+ * MultinomialNB
+* sklearn.metrics
+ * classification_report
+* sklearn.feature_extraction.text
+ * TfidVectorizer
+
 ## Getting Started
 ----- step by step instructions on how to use application / build app on local machine -----
 
@@ -48,8 +60,7 @@ Ultimately we wish to combat fake news by leveraging the techniques used in mach
 ## Extra Resources
 * Examples of Vectorizers: https://towardsdatascience.com/a-complete-exploratory-data-analysis-and-visualization-for-text-data-29fb1b96fb6a
 * TechTalks GPT-3: https://bdtechtalks.com/2020/08/17/openai-gpt-3-commercial-ai/
-* Google Doc for documentation: https://docs.google.com/document/d/1nRih3lCmjHZDHOr2gvDwSJfWaDgtQrDo5Bd_H7gRktQ/edit?usp=sharing
-* Github Formatting Help: https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax#links
 
 ## Credits
------  people on the project -----
+A special thanks to the CUNY Tech Prep staff for guiding us on our journey in becoming better Data Scientist.
+
