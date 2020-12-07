@@ -51,7 +51,7 @@ Ultimately we wish to combat fake news by leveraging the techniques used in mach
 
 ## Getting Started
 > Get this code running on your machine
------ step by step instructions on how to use application / build app on local machine -----
+
 1. Fork this project to a local repository on your machine 
 2. Make sure to install all the programs found in [technology](#Technology)
 3. Open up the jupter notebook and play with the model
