@@ -3,7 +3,44 @@ import os
 import pickle
 import pandas as pd
 import skimage
+import re
+import nltk 
+from nltk.tokenize import word_tokenize
+from nltk.corpus import stopwords
 
+import gensim
+from gensim.utils import simple_preprocess 
+from gensim.parsing.preprocessing import STOPWORDS
+from tensorflow.keras.preprocessing.text import one_hot, Tokenizer
+from tensorflow.keras.preprocessing.sequence import pad_sequences
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense, Flatten, Embedding, Input, LSTM, Conv1D, MaxPool1D, Bidirectional
+from tensorflow.keras.models import Model
+
+
+def to_lower(document): 
+    return document.lower()
+
+def remove_punctuation(document):    
+    document = re.sub(r'[^\w\s]','',document)
+    return document
+
+# def remove_stopword(string):
+#     words = word_tokenize(string)
+#     accepted_bag = []
+#     for element in words:
+#         if element not in stopwords:
+#             accepted_bag.append(element)
+            
+#     string = ' '.join(accepted_bag)
+    
+#     return string
+
+def text_pipeline(input_string):
+    input_string = to_lower(input_string)
+    input_string = remove_punctuation(input_string)
+#     input_string = remove_stopword(input_string)
+    return input_string
 
 app = flask.Flask(__name__, template_folder='templates')
 
@@ -31,8 +68,10 @@ def main():
         # Get the input from the user.
         user_input_text = flask.request.form['user_input_text']
 
+        cleaned_input = text_pipeline(user_input_text)
+
         # Turn the text into numbers using our vectorizer
-        X = vectorizer.transform([user_input_text])
+        X = vectorizer.transform([cleaned_input])
         
         # Make a prediction 
         x_pred = model.predict(X)
