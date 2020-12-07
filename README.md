@@ -8,6 +8,7 @@
 * [Getting Started](#Getting-started)
 * [Training](#Training)
 * [Results](#Training)
+* [Extra Resources](#Extra-Resources)
 * [Credits](#Credits)
 
 ## Introduction
@@ -44,14 +45,11 @@ Ultimately we wish to combat fake news by leveraging the techniques used in mach
 ## Results 
 ----- outline results and findings ----- 
 
-## Credits
------  people on the project -----
-
-
-
-
 ## Extra Resources
 * Examples of Vectorizers: https://towardsdatascience.com/a-complete-exploratory-data-analysis-and-visualization-for-text-data-29fb1b96fb6a
 * TechTalks GPT-3: https://bdtechtalks.com/2020/08/17/openai-gpt-3-commercial-ai/
 * Google Doc for documentation: https://docs.google.com/document/d/1nRih3lCmjHZDHOr2gvDwSJfWaDgtQrDo5Bd_H7gRktQ/edit?usp=sharing
 * Github Formatting Help: https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax#links
+
+## Credits
+-----  people on the project -----
