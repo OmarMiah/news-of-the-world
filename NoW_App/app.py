@@ -86,10 +86,10 @@ def main():
         predicted_proba = predicted_probas[0]
 
         # The first element in the predicted probabs is % democrat
-        percent_fake = predicted_proba[0]
+        percent_true = predicted_proba[0]
 
         # The second elemnt in predicted probas is % republican
-        percent_true= predicted_proba[1]
+        percent_fake= predicted_proba[1]
 
         return flask.render_template('main.html', 
             input_text=user_input_text,
