@@ -60,15 +60,6 @@ Ultimately we wish to combat fake news by leveraging the techniques used in mach
 4. You can build the app by opening a terminal in the folder and typing the following command: 
    > ./app.py
 
-## Training
-> What's the secret sauce?
------ a brief description on features/ vectorizers/ and regression -----
------ sample code -----
-
-## Results 
-> Journey to the end of the rainbow
------ outline results and findings ----- 
-
 ## Extra Resources
 > Extra reading on this topic (updated as often as possible)
 * Examples of Vectorizers: https://towardsdatascience.com/a-complete-exploratory-data-analysis-and-visualization-for-text-data-29fb1b96fb6a
