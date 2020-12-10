@@ -41,15 +41,15 @@ Ultimately we wish to combat fake news by leveraging the techniques used in mach
 
 * pandas
 * nltk
-  * word_tokenize
-  * stopwords
+  * word_tokenize()
+  * stopwords()
 * pickle
 * sklearn.naive_bayes
-  * MultinomialNB
+  * MultinomialNB()
 * sklearn.metrics
-  * classification_report
+  * classification_report()
 * sklearn.feature_extraction.text
-  * TfidVectorizer
+  * TfidVectorizer()
 
 ## Getting Started
 > Get this code running on your machine
