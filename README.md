@@ -13,15 +13,12 @@
 
 ## Introduction
 
-Technology has made continuous improvements as storage and computing capabalites improve. With increased storage comes increased memory of data. As we all know, Data is king as it has been a biproduct since the advent of technology, but can all data be trusted? On a daily basis individuals are inundated with information from all across the internet. How can we democratize data to provide open access to all those who wish to use it and ensure its validity?   
+The internet power comes from the ease of access to thousands of sources of information. It’s the reason the 21st century will be clonality know as the information age. But what happens when a source of information is not true. We know that no central authority can or should police the internet, and so the responsibility of the user to verify incoming data. Many people unfortunately don’t have the time, skills or recourses to do proper source verification. To assist everyday humans, we built News of the World, Because the truth needs an algorithm. 
 
-News of The World is a step towards that direction. This app utilizises two data sets that explore known articles labeled as true or fake. We used these datasets to classify real news vs disinformation dressed up as news. There are many models that will ultimately lead us to the same conclusion, though we decided to use the Naive Bayes approach to handling our data. We performed Exploratory Data Analysis techniques to obtain an understanding of our datasets. Then using feature engineering, we selected features that would allow us to train our machine for understanding the difference between fake and real news. The result yeild a 95% accuracy but there are many aspects to be explored and with deeper analysis, this number can drop down. The way to ensure a better accuracy is to gather more news articles and build a larger data set with fake and real news. 
+How does News of the World work? Our algorithm uses two data sets. the data sets are separated by their main classification, one set is filled with fake news articles and the other with true news articles. All the articles have been verified for their accuracy or lack thereof. The model we are using to predict if inputted information is true or not is by using Naive Bayes. With the Naive Bayes approach the word count of the submitted article is compares to the unique word count of articles we have in our data sets. If unique words match words in fake articles it is predicted to be fake and the same process is used for the truth. 
+For the future we plain on using more complex models but as a first-time approach to this problem Naive Bayes helps us attack out problem straight on. In addition, we would like to add a sentiment analysis that will match up an article with a known publication. This can provide more in site about the writing as all publications have a different approach to writing the news. 
 
-Using the Naive Bayes approach, we look at the word count of each dataset to determine if an article is real or fake. Other approaches involve neural networks which will be deemed as more efficient due to the model's capabilities to remember more words grouped closeley together. 
-
-That being said, our algorithm can be used by anyone who needs to test the legitimacy of an article and know if it is a product of the fourth estate or an exercise in producing fiction. 
-
-Ultimately we wish to combat fake news by leveraging the techniques used in machine learning and natural language processing to give our users clarity and peace of mind.
+Overall News of the world has one simple message, nothing is more important to a democracy then a well-informed electorate. It is clear, the truth needs an algorithm. 
 
 ## Technology 
 
