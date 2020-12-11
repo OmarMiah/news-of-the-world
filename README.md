@@ -17,7 +17,7 @@ The internet power comes from the ease of access to thousands of sources of info
 
 How does News of the World work? Our algorithm uses two data sets. the data sets are separated by their main classification, one set is filled with fake news articles and the other with true news articles. All the articles have been verified for their accuracy or lack thereof. The model we are using to predict if inputted information is true or not is by using Naive Bayes. With the Naive Bayes approach the word count of the submitted article is compares to the unique word count of articles we have in our data sets. If unique words match words in fake articles it is predicted to be fake and the same process is used for the truth. 
 
-For the future we plain on using more complex models but as a first-time approach to this problem Naive Bayes helps us attack out problem straight on. In addition, we would like to add a sentiment analysis that will match up an article with a known publication. This can provide more in site about the writing as all publications have a different approach to writing the news. 
+For the future we plan on using more complex models but as a first-time approach to this problem we usaed Naive Bayes as a prof of concept to solve the problem straight on. In addition, we would like to add a sentiment analysis that will match up an article with a known publication. This can provide more in site about the writing as all publications have a different approach to writing the news. 
 
 News of the world has one simple message, nothing is more important to a democracy then a well-informed electorate. It is clear, the truth needs an algorithm. 
 
